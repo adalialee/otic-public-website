@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Home from './OTIC/Home';
+import './styles.css';
 import OTIC from './OTIC';
 
 function App() {

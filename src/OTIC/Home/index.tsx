@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+import Button from "../Components/Button";
+import SeeMore from "../Components/SeeMore";
 
 function Home() {
     return (
@@ -19,7 +21,9 @@ function Home() {
                     </div>
                 
                 </div>
+
                 <div className="col-12 col-md-4" style={{padding: "48px"}}>
+                    <Button buttonType="button-primary" textStyle="subtitle">See More</Button>
                     <h2>SERVICES</h2>
                     <ul>
                         <li>Testing as a Service</li>
@@ -31,6 +35,7 @@ function Home() {
                     </ul>
                     <br/>
                     <h2>TESTING EQUIPMENT</h2>
+                    <Button buttonType="button-primary" textStyle="subtitle">See More</Button>
                 </div>
             </div>
             <div style={{paddingLeft: "96px", paddingRight: "96px"}}>
@@ -58,16 +63,19 @@ function Home() {
                             <img src="/images/colosseum-person.png" className="img-fluid" alt="person in colosseum"/>
                             <h6>COLOSSEUM</h6>
                             <p>Colosseum, the world’s largest wireless network emulator with hardware-in-the-loop, with 256 software-defined radios, more than 20 racks of compute, with programmable GPUs, FPGAs, and components to orchestrate and manage a multi-tenant experimental environment. It is already being used by more than 77 teams from different research institutions, and has already been successfully used to demonstrate closed-loop control for O-RAN.</p>
+                            <SeeMore/>
                         </div>
                         <div className="col-12 col-sm-12 col-md-4" style={{paddingRight: "48px"}}>
                             <img src="/images/hand-wires.png" className="img-fluid" alt="hand with wires"/>
                             <h6>OPEN RAN GYM</h6>
                             <p>The OpenRAN Gym framework, a large-scale data collection for the training of AI/ML, hosts multiple 5G protocol stacks for RAN and core and tests a mix of commercial radios and emulated devices.</p>
+                            <SeeMore/>
                         </div>
                         <div className="col-12 col-sm-12 col-md-4">
                             <img src="/images/isec-offices.png" className="img-fluid" alt="isec offices"/>
                             <h6>DIVERSE 5G RAN DEPLOYMENTS</h6>
                             <p>Multiple 5G RAN deployments and equipment, including softwarized and commercial RAN products, 5G UEs, core networks, a programmable 5G and O-RAN testbed with 10+ gNodeBs on the indoor Arena testbed, and testing equipment.</p>
+                            <SeeMore/>
                         </div>
                     </div>
                     <div className="row" style={{paddingTop: "48px"}}>
@@ -75,11 +83,13 @@ function Home() {
                             <img src="/images/person-wires.png" className="img-fluid" alt="person with wires"/>
                             <h6>FCC INNOVATION ZONE FRAMEWORK</h6>
                             <p>One of the four FCC Innovation Zone frameworks in the nation, which allows the lab to quickly obtain experimental licenses for over-the-air testing in the Northeastern University Innovation Campus in Burlington, MA, and in the main Boston, MA campus.</p>
+                            <SeeMore/>
                         </div>
                         <div className="col-12 col-sm-12 col-md-4">
                             <img src="/images/blue-center.png" className="img-fluid" alt="center with blue floor"/>
                             <h6>UAV TESTING FACILITY</h6>
                             <p>An outdoor UAV testing facility to profile use cases related to drone mobility and a large anechoic chamber to test radio devices in an interference-free environment.</p>
+                            <SeeMore/>
                         </div>
                     </div>
                 </div>
@@ -91,6 +101,7 @@ function Home() {
                             <div className="col-12 col-sm-12 col-md-8" style={{textAlign: "left"}}>
                                 <h3>KEYSIGHT TECHNOLOGIES</h3>
                                 <p>“Working closely with Open6G OTIC has revolutionized our testing and integration processes. Their advanced capabilities in compliance, functional testing, and real-world scenario simulations have enabled us to validate our products with precision and efficiency. Their collaborative approach and dedication to innovation have positioned Open6G OTIC as an invaluable partner in our mission to deliver high-performance solutions that meet the evolving needs of our global customers."</p>
+                                <SeeMore/>
                             </div>
                             <div className="col-12 col-sm-12 col-md-4">
                                 <img src="/images/keysight.png" className="img-fluid" alt="keysight"/>
@@ -103,12 +114,14 @@ function Home() {
                             <div className="col-12 col-sm-12 col-md-8" style={{textAlign: "left"}}>
                                 <h3>AMPLITECH</h3>
                                 <p>"Open6G OTIC has been instrumental in validating the performance and reliability of our RF and microwave components tailored for Open RAN networks. Their specialized testing services and access to cutting-edge environments like Colosseum have enabled us to demonstrate the robustness of our solutions under real-world conditions. Their deep expertise and commitment to excellence make Open6G OTIC a trusted collaborator in advancing next-generation wireless technologies."</p>
+                                <SeeMore/>
                             </div>
                         </div>
                         <div className="row" style={{paddingBottom: "48px"}}>
                             <div className="col-12 col-sm-12 col-md-8" style={{textAlign: "left"}}>
                                 <h3>ACCORD</h3>
                                 <p>"At ACCoRD, we rely on strategic partners like Open6G OTIC to drive innovation and ensure the reliability of our network solutions. Their end-to-end full stack OTIC capabilities, combined with rigorous testing protocols, have been integral to the successful deployment of our nationwide 5G initiatives. Their commitment to energy-efficient networks aligns perfectly with our sustainability goals, making Open6G OTIC a valued collaborator in shaping the future of telecommunications infrastructure."</p>
+                                <SeeMore/>
                             </div>
                             <div className="col-12 col-sm-12 col-md-4">
                                 <img src="/images/accord.png" className="img-fluid" alt="accord"/>
